@@ -23,11 +23,11 @@ fun Double.meterPerSecondToKmPerHour(): Double {
 }
 
 fun Double.celsiusToFahrenheit(): Double {
-    return this.times(9/5) + 32
+    return this.times(9.0/5.0) + 32.0
 }
 
 fun Double.fahrenheitToCelsius(): Double {
-    return (this.minus(32)).times(5/9)
+    return (this.minus(32.0)).times(5.0/9.0)
 }
 
 fun Temperature.convertTo(
